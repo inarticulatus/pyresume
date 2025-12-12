@@ -1,6 +1,6 @@
 # PyResume
 
-**Generate beautiful, professional PDF resumes from YAML data using LaTeX templates.**
+**Generate professional PDF resumes from YAML data using LaTeX templates.**
 
 PyResume combines the simplicity of YAML configuration with the typographic excellence of LaTeX to produce stunning resumes. Define your content once, generate consistently formatted PDFs with a single command.
 
@@ -10,18 +10,26 @@ PyResume combines the simplicity of YAML configuration with the typographic exce
 
 ---
 
-## ✨ Features
+## Preview
 
-- 📝 **YAML-based content** — Define your resume in clean, readable YAML files
-- 🎨 **Professional templates** — Uses the stunning [Awesome CV](https://github.com/posquit0/Awesome-CV) LaTeX template
-- 🔄 **Flexible section ordering** — Control the order of resume sections via configuration
-- 📁 **Modular data structure** — Separate files for each section (personal, experience, education, etc.)
-- 🚀 **Single command build** — Generate your PDF with `make build`
-- 🐍 **Pure Python** — Minimal dependencies, easy to customize
+<p align="center">
+  <img src="assets/preview.png" alt="Sample Resume Preview" width="600">
+</p>
 
 ---
 
-## 📋 Prerequisites
+## Features
+
+- **YAML-based content** — Define your resume in clean, readable YAML files
+- **Professional templates** — Uses the stunning [Awesome CV](https://github.com/posquit0/Awesome-CV) LaTeX template
+- **Flexible section ordering** — Control the order of resume sections via configuration
+- **Modular data structure** — Separate files for each section (personal, experience, education, etc.)
+- **Single command build** — Generate your PDF with `make build`
+- **Pure Python** — Minimal dependencies, easy to customize
+
+---
+
+## Prerequisites
 
 - **Python 3.11+**
 - **[Tectonic](https://tectonic-typesetting.github.io/en-US/)** — Modern LaTeX engine
@@ -42,7 +50,7 @@ brew install tectonic
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 
@@ -87,7 +95,7 @@ Your resume will be generated at `output/resume.pdf`.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 PyResume/
@@ -122,7 +130,7 @@ PyResume/
 
 ---
 
-## 📝 YAML Format
+## YAML Format
 
 ### Configuration (`config.yaml`)
 
@@ -180,7 +188,7 @@ See `FORMATTING.md` for the complete formatting guide.
 
 ---
 
-## ⚙️ Customization
+## Customization
 
 ### Available Themes
 
@@ -213,7 +221,7 @@ Set your preferred theme in `config.yaml`.
 
 ---
 
-## 🛠️ CLI Options
+## CLI Options
 
 ```bash
 python scripts/generate_resume.py [OPTIONS]
@@ -227,7 +235,7 @@ python scripts/generate_resume.py [OPTIONS]
 
 ---
 
-## 🔧 Makefile Targets
+## Makefile Targets
 
 | Target | Description |
 |--------|-------------|
@@ -238,7 +246,7 @@ python scripts/generate_resume.py [OPTIONS]
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### "Virtual environment not activated"
 
@@ -262,7 +270,7 @@ Ensure the section name in `section_order` matches the section key in your YAML 
 
 ---
 
-## 📄 License
+## License
 
 This project uses the [Awesome CV](https://github.com/posquit0/Awesome-CV) LaTeX template by [posquit0](https://github.com/posquit0), licensed under the LaTeX Project Public License.
 
@@ -270,7 +278,7 @@ The Python code in this repository is licensed under the MIT License.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Awesome CV](https://github.com/posquit0/Awesome-CV) — Beautiful LaTeX template
 - [Tectonic](https://tectonic-typesetting.github.io/) — Modern LaTeX engine
@@ -278,12 +286,6 @@ The Python code in this repository is licensed under the MIT License.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Contributions are welcome!
