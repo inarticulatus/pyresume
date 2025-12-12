@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+pip-wheel-metadata/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ruff linter
+.ruff_cache/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Output directory - don't commit generated PDFs
+output/*.pdf
+output/*.tex
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore any local configuration overrides
+*.local.yaml

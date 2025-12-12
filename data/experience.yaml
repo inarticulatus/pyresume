@@ -1,0 +1,53 @@
+# Work experience entries - Replace with your own experience
+- company: Acme Corporation
+  position: Senior Software Engineer
+  location: San Francisco, CA
+  dates: Jan 2023 - Present
+  details:
+    - >
+      Led the development of a microservices architecture, improving system 
+      scalability by 40%.
+    - >
+      Designed and implemented RESTful APIs serving 1M+ daily requests with 
+      99.9% uptime.
+    - >
+      Mentored junior developers and conducted code reviews, improving team 
+      code quality metrics by 25%.
+    - >
+      Collaborated with product and design teams to deliver features that 
+      increased user engagement by 30%.
+  keywords: Python, AWS, Docker, Kubernetes, PostgreSQL, Redis
+
+- company: Tech Startup Inc.
+  position: Software Engineer
+  location: New York, NY
+  dates: June 2021 - Dec 2022
+  details:
+    - >
+      Built data pipelines processing 500GB+ daily using Apache Spark and 
+      Python, reducing processing time by 60%.
+    - >
+      Developed machine learning models for customer churn prediction, 
+      achieving 85% accuracy.
+    - >
+      Created automated testing frameworks that increased test coverage 
+      from 45% to 90%.
+    - >
+      Implemented CI/CD pipelines using GitHub Actions, reducing deployment 
+      time from hours to minutes.
+  keywords: Python, Spark, Machine Learning, CI/CD, Testing
+
+- company: Digital Agency
+  position: Junior Developer
+  location: Austin, TX
+  dates: July 2019 - May 2021
+  details:
+    - >
+      Developed responsive web applications using React and Node.js, 
+      serving 100K+ monthly users.
+    - >
+      Optimized database queries, reducing page load times by 50%.
+    - >
+      Collaborated with cross-functional teams to deliver projects 
+      on time and within budget.
+  keywords: JavaScript, React, Node.js, SQL, Agile

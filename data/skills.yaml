@@ -1,0 +1,12 @@
+# Skills categories - Customize with your own skills
+- category: Programming Languages
+  items: Python, JavaScript, TypeScript, Go, SQL
+
+- category: Frameworks & Tools
+  items: React, FastAPI, Django, Docker, Kubernetes, Git
+
+- category: Data & Cloud
+  items: PostgreSQL, Redis, AWS, GCP, Spark, Kafka
+
+- category: Soft Skills
+  items: Leadership, Technical Communication, Problem-Solving, Agile Methodologies

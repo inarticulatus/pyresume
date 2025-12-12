@@ -1,0 +1,14 @@
+# Education entries - Replace with your own education history
+- degree: MSc
+  major: Computer Science
+  institution: Example University
+  location: City, Country
+  date: '2023'
+  grade: '3.8 GPA'
+
+- degree: BSc
+  major: Computer Science
+  institution: Example State University
+  location: City, Country
+  date: '2021'
+  grade: '3.6 GPA'

@@ -1,0 +1,8 @@
+theme: "awesome-darknight"
+font_size: "10pt"
+section_order:
+  - experience
+  - projects
+  - skills
+  - research
+  - education

@@ -1,0 +1,51 @@
+# Project entries - Replace with your own projects
+- name: E-Commerce Platform
+  date: '2023'
+  details:
+    - >
+      Built a full-stack e-commerce platform with React frontend and 
+      Python/FastAPI backend.
+    - >
+      Implemented payment processing integration with Stripe, handling 
+      1000+ transactions.
+    - >
+      Designed scalable database schema using PostgreSQL with 
+      proper indexing strategies.
+  keywords: React, FastAPI, PostgreSQL, Stripe, Docker
+
+- name: Real-Time Analytics Dashboard
+  date: '2022'
+  details:
+    - >
+      Developed a real-time analytics dashboard using Apache Kafka 
+      for event streaming.
+    - >
+      Created interactive visualizations with D3.js, providing 
+      actionable insights.
+    - >
+      Implemented caching layer with Redis, reducing query times by 70%.
+  keywords: Kafka, D3.js, Redis, Python, Data Visualization
+
+- name: ML Model Deployment Pipeline
+  date: '2022'
+  details:
+    - >
+      Created end-to-end ML pipeline for model training, validation, 
+      and deployment.
+    - >
+      Implemented model versioning and A/B testing framework for 
+      production rollouts.
+    - >
+      Built monitoring dashboards for model performance and drift detection.
+  keywords: MLOps, Docker, Kubernetes, Python, TensorFlow
+
+- name: Open Source CLI Tool
+  date: '2021'
+  details:
+    - >
+      Developed a command-line tool for automating development workflows, 
+      gaining 500+ GitHub stars.
+    - >
+      Published package to PyPI with comprehensive documentation and 
+      test coverage.
+  keywords: Python, CLI, Open Source, PyPI
